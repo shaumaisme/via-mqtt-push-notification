@@ -1,6 +1,6 @@
 #README
 
-##TODO
+###TODO
 
 1. Detailing this README
 2. Add scheduled notifications send
@@ -12,6 +12,7 @@ This project is intended for proof of concept for sending notification to MQTT s
 ###Running Project
 ####Requirements
 Following are requirements for running this project
+
 0. Java 8 installed on your machine, this project uses lambda expression, especially in configuration of notification messages flow (Provided by [spring integration](http://projects.spring.io/spring-integration/) and spring [integration java dsl](https://github.com/spring-projects/spring-integration-java-dsl/wiki/Spring-Integration-Java-DSL-Reference) projects).
 1. Maven installed. Or optionally use STS IDE or IntelliJ IDE.
 2. [ActiveMQ](http://activemq.apache.org). This project tested with version [5.12.0](http://activemq.apache.org/activemq-5120-release.html).

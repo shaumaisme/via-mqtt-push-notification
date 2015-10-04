@@ -1,0 +1,6 @@
+## Eclipse Based IDE Ignored Artifacts
+.project
+.classpath
+.springBeans
+/.settings
+/target
